@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:background="@color/windowBackground"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="@string/txtLanguage"
+        android:textColor="@color/colorPrimary" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radGr">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/radEng"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radEng"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/radVie"
+            android:textSize="15sp"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radVie"/>
+    </RadioGroup>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_custom"
+        android:text="@string/btnBack"
+        android:textSize="15sp"
+        android:textColor="@color/textColorPrimary"/>
+</LinearLayout>

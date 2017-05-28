@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/ic_back"
+        android:orderInCategory="120"
+        android:title="Back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="140"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_rotate"
+        android:icon="@drawable/ic_rotate"
+        android:orderInCategory="160"
+        android:title="Rotate"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_compare"
+        android:icon="@drawable/ic_compare"
+        android:orderInCategory="180"
+        android:title="Compare"
+        app:showAsAction="always"/>
+</menu>

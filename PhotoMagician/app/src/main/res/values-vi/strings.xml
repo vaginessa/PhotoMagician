@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnTakePhoto">   Chụp một   \n   bức hình   </string>
+    <string name="btnChooseAlbum">Chọn từ \n thư viện</string>
+    <string name="titleAdjust">Điều chỉnh</string>
+    <string name="titleFilter">Bộ lọc</string>
+    <string name="titleSticker">Nhãn dán</string>
+    <string name="titleShare">Chia sẻ</string>
+    <string name="titleSetting">Thiết lập</string>
+    <string name="titleAbout">Về chúng tôi</string>
+    <string name="txtLanguage">Ngôn ngữ</string>
+    <string name="radEng">Tiếng Anh</string>
+    <string name="radVie">Tiếng Việt</string>
+    <string name="btnBack">Trở về</string>
+    <string name="txtVersion">Phiên bản 1.0\n\nNguyễn Anh Quốc - 1453037\nNguyễn Hoàng Thiên - 1453044</string>
+    <string name="titleOther">Khác</string>
+</resources>

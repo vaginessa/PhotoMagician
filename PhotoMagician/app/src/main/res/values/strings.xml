@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Photo Magician</string>
+    <string name="title_activity_navigation">PhotoMagician</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1861818550763629</string>
+    <string name="btnTakePhoto">   Take a   \n   photo   </string>
+    <string name="btnChooseAlbum">Choose from \nalbum</string>
+    <string name="titleAdjust">Adjustment</string>
+    <string name="titleFilter">Filter</string>
+    <string name="titleSticker">Sticker</string>
+    <string name="titleShare">Share</string>
+    <string name="titleSetting">Setting</string>
+    <string name="titleAbout">About us</string>
+    <string name="txtLanguage">Language</string>
+    <string name="radEng">English</string>
+    <string name="radVie">Vietnamese</string>
+    <string name="btnBack">BACK</string>
+    <string name="txtVersion">Version 1.0\n\nNguyen Anh Quoc - 1453037\nNguyen Hoang Thien - 1453044</string>
+    <string name="titleOther">Other</string>
+</resources>
